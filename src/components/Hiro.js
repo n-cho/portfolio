@@ -26,7 +26,7 @@ export default function Hiro () {
                 <div className="flex flex-col w-full mt-8">
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">Nathan Cho</h1>
-                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Cloud Computing, DevSecops, and Web Development. Now I am looking for more experience in my field.</p>
+                    <p className="text-md font-light text-gray-400 ">Hi, I am a student from British Columbia. I am very expeienced in many programming laguages notably C++ and Java. I enjoy learning about computers as a hobby and am a memeber of Ten Ton Robotics where I build and battle robots at a regional and international level.</p>
                 </div>
                 
                 <ul className='flex mt-2 gap-4 items-center'>

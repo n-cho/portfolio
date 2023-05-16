@@ -1,4 +1,4 @@
-import logo from '../assets/pixil-frame-0.png';
+import logo from '../assets/logo.png';
 import resume from "../assets/resume.pdf"
 
 export default function Navbar() {

@@ -3,23 +3,15 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SkillCard from "./SkillCard.js"
 
-import javascript from "../assets/skills/javascript.svg"
-import bash from "../assets/skills/bash.svg"
-import kvm from "../assets/skills/kvm.svg"
-import linux from "../assets/skills/linux.svg"
 import python from "../assets/skills/python.svg"
-import reactIcon from "../assets/skills/react.svg"
-import tailwind from "../assets/skills/tailwind.svg"
-import mikrotik from "../assets/skills/mikrotik.svg"
-import kubernetes from "../assets/skills/kubernetes.svg"
-import ansible from "../assets/skills/ansible.svg"
-import windows from "../assets/skills/windows.svg"
+import java from "../assets/skills/java.svg"
+import swift from "../assets/skills/swift.svg"
+import cplusplus from "../assets/skills/cplusplus.svg"
+import javascript from "../assets/skills/javascript.svg"
 import react from "../assets/skills/react.svg"
-import cisco from "../assets/skills/cisco.svg"
-import docker from "../assets/skills/docker.svg"
-import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
-import gitlab from "../assets/skills/gitlab.svg"
+import git from "../assets/skills/git.svg"
+import github from "../assets/skills/github.svg"
 
 import hr from "../assets/curve-hr.svg"
 
@@ -40,21 +32,15 @@ export default function Skills() {
             <div className="mt-4">
                 <Slider {...settings}>
 
-
                 <SkillCard name="python" experience="3 ish years" img={python} />
+                <SkillCard name="java" experience="2 years" img={java} />
+                <SkillCard name="swift" experience="1 years" img={swift} />
+                <SkillCard name="cplusplus" experience="3 years" img={cplusplus} />
                 <SkillCard name="javascript" experience="2 months" img={javascript} />
-
-
-
-
-
-
-
                 <SkillCard name="react" experience="couple weeks" img={react} />
-
-
-                <SkillCard name="git" experience="2 years" img={git} />
                 <SkillCard name="express" experience="last week" img={express} />
+                <SkillCard name="git" experience="4 years" img={git} />
+                <SkillCard name="github" experience="4 years" img={github} />
 
                 </Slider>
             </div>
